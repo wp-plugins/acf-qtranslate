@@ -1,7 +1,4 @@
 
-.multi-language-field { margin-top: -38px; }
-
-#edit-slug-box { margin-top: -15px; }
 
 .qtrans_title_wrap {
 	margin-bottom: 20px;
@@ -20,6 +17,14 @@
 
 
 .acf_wysiwyg .wp-editor-container { border: 1px solid #e5e5e5 !important; }
+
+.multi-language-field {
+	margin-top: -38px;
+}
+
+.acf-input-table .multi-language-field {
+	margin-top: -6px;
+}
 
 .multi-language-field .wp-switch-editor {
 	border-color: #dedede;
