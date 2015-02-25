@@ -2,9 +2,9 @@
 Contributors: funkjedi
 Tags: acf, advanced custom fields, qtranslate, add-on, admin
 Requires at least: 3.0.0
-Tested up to: 3.9.2
-Version: 1.4
-Stable tag: 1.4
+Tested up to: 4.1.1
+Version: 1.6
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,13 @@ The plugin is based on code samples posted to the [ACF support forums](http://ol
 1. Shows the qTranslate Text and Image fields.
 
 == Changelog ==
+
+= 1.6 =
+Added ACFv4 support for qTranslate-X
+
+= 1.5 =
+Added support for qTranslate-X
+Remove ACFv5 WYSIWYG implementation as it was very broken
 
 = 1.4 =
 Updated with support for Advanced Customs Fields v5
