@@ -33,6 +33,6 @@ endif;
 
 if (function_exists('qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage') === false):
 	function qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage($content) {
-		return qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage($content);
+		return qtranxf_useCurrentLanguageIfNotFoundUseDefaultLanguage($content);
 	}
 endif;
