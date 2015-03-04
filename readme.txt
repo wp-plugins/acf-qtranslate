@@ -3,8 +3,8 @@ Contributors: funkjedi
 Tags: acf, advanced custom fields, qtranslate, add-on, admin
 Requires at least: 3.5.0
 Tested up to: 4.1.1
-Version: 1.7.4
-Stable tag: 1.7.4
+Version: 1.7.5
+Stable tag: 1.7.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,7 +34,7 @@ https://github.com/funkjedi/acf-qtranslate/issues/
 1. Upload `acf-qtranslate` directory to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
-= Requires ACF4 or ACF5PRO
+= Requires ACF4 or ACF5PRO =
 * [ACF](https://wordpress.org/plugins/advanced-custom-fields/)
 * [ACF5PRO](http://www.advancedcustomfields.com/pro/)
 
@@ -58,6 +58,10 @@ The plugin is based on code samples posted to the ACF support forums by taeo bac
 
 
 == Changelog ==
+
+= 1.7.5 =
+* Core: Updates to README file
+* Bug Fix: Updated to visible ACF fields detection
 
 = 1.7.4 =
 * Bug Fix: Only load admin javascript when there are visible ACF fields
