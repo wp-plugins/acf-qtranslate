@@ -44,10 +44,10 @@ class acf_qtranslate_acf_5 implements acf_qtranslate_acf_interface {
 	 * Load javascript and stylesheets on admin pages.
 	 */
 	public function admin_enqueue_scripts() {
-		if ($this->get_acf_field_group_filters()) {
+		if ($this->get_visible_acf_fields()) {
 			wp_enqueue_style('acf_qtranslate_common',  plugins_url('/assets/common.css',    ACF_QTRANSLATE_PLUGIN), array('acf-input'));
-			wp_enqueue_script('acf_qtranslate_common', plugins_url('/assets/common.js',     ACF_QTRANSLATE_PLUGIN), array('acf-input'));
-			wp_enqueue_script('acf_qtranslate_main',   plugins_url('/assets/acf_5/main.js', ACF_QTRANSLATE_PLUGIN), array('acf-input'));
+			wp_enqueue_script('acf_qtranslate_common', plugins_url('/assets/common.js',     ACF_QTRANSLATE_PLUGIN), array('acf-input','underscore'));
+			wp_enqueue_script('acf_qtranslate_main',   plugins_url('/assets/acf_5/main.js', ACF_QTRANSLATE_PLUGIN), array('acf-input','underscore'));
 		}
 	}
 
@@ -97,6 +97,13 @@ class acf_qtranslate_acf_5 implements acf_qtranslate_acf_interface {
 			'email',
 			'text',
 			'textarea',
+			'repeater',
+			'flexible_content',
+			'qtranslate_file',
+			'qtranslate_image',
+			'qtranslate_text',
+			'qtranslate_textarea',
+			'qtranslate_wysiwyg'
 		);
 
 		foreach (acf_get_field_groups($filter) as $field_group) {
